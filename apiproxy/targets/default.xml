@@ -1,0 +1,9 @@
+<TargetEndpoint name="default">
+    <HTTPTargetConnection>
+        <Properties/>
+        <SSLInfo/>
+        <LoadBalancer>
+            <Server name="TSname"/>
+        </LoadBalancer>
+    </HTTPTargetConnection>
+</TargetEndpoint>
