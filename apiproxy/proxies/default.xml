@@ -1,21 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
 <ProxyEndpoint name="default">
     <Flows>
-        <Flow name="testflow1">
-            <Description/>
-            <Request/>
-            <Response/>
-            <Condition>(proxy.pathsuffix MatchesPath "/testflow1") and (request.verb="POST")</Condition>
+        <Flow name="SystemNotification">
+            <Description />
+            <Request />
+            <Response />
+            <Condition>(proxy.pathsuffix MatchesPath "/test1") and (request.verb="POST")</Condition>
         </Flow>
-        <Flow name="testflow2">
-            <Description/>
-            <Request/>
-            <Response/>
-            <Condition>(proxy.pathsuffix MatchesPath "/testflow2") and (request.verb="GET")</Condition>
-        </Flow>
-    </Flows>
+        </Flows>
     <HTTPProxyConnection>
-        <BasePath>/v1</BasePath>
-        <Properties/>
+        <BasePath>/idad/saltremediation/system</BasePath>
+        <Properties />
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
 </ProxyEndpoint>

@@ -1,9 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
 <TargetEndpoint name="default">
     <HTTPTargetConnection>
-        <Properties/>
-        <SSLInfo/>
+        <Properties />
+        <SSLInfo />
         <LoadBalancer>
-            <Server name="TSname"/>
+            <Server name="test-etst-v1-TS" />
         </LoadBalancer>
     </HTTPTargetConnection>
 </TargetEndpoint>
